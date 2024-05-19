@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historia - Arquitectura de Computadoras</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('Fondo de historia.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            
+        }
+        header {
+            background-color: #333;
+            color: #fefcfc;
+            text-align: center;
+            padding: 20px 0;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para la barra de navegación */
+            border-radius: 5px; /* Borde redondeado para la barra de navegación */
+            overflow: hidden; /* Evita que el contenido de la barra de navegación se desborde */
+        }
+        nav ul li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: #fff; /* Color del texto blanco */
+            text-decoration: none;
+            padding: 10px; /* Espacio alrededor de los enlaces */
+            display: block; /* Los enlaces se muestran como bloques */
+        }
+        nav ul li a:hover {
+            background-color: rgba(255, 255, 255, 0.5); /* Cambia el color de fondo al pasar el ratón */
+            color: #333; /* Cambia el color del texto al pasar el ratón */
+            border-radius: 5px; /* Borde redondeado */
+        }
+        section {
+            padding: 20px;
+        }
+        section h2 {
+            color: #040404;
+        }
+        section p {
+            color: #010101;
+        }
+        .informacion {
+            background-color: rgba(255, 255, 255, 0.7); /* Fondo semi-transparente blanco */
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Sombra */
+        }
+        .informacion h2 {
+            margin-bottom: 20px;
+        }
+        .informacion p {
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Arquitectura de Computadoras</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="Pagina de arquitectura.html">Menu</a></li>
+            <li><a href="historia.html">Historia</a></li>
+            <li><a href="unidad1.html">Unidad 1</a></li>
+            <li><a href="unidad2.html">Unidad 2</a></li>
+            <li><a href="unidad3.html">Unidad 3</a></li>
+            <li><a href="unidad4.html">Unidad 4</a></li>
+            <li><a href="practicas.html">Prácticas</a></li>
+        </ul>
+    </nav>
+    <section id="historia">
+        <div class="informacion">
+            <h2>Historia</h2>
+            <p>La arquitectura de computadoras, también llamada arquitectura de ordenadores en algunos casos, es el diseño conceptual y la estructura operacional fundamental de un sistema de computadoras.1​ Es decir, es un modelo y una descripción funcional de los requerimientos y las implementaciones de diseño para varias partes de una computadora, con especial interés en la forma en que la unidad central de proceso (CPU) trabaja internamente y accede a las direcciones de memoria.
+                También la arquitectura del computador está basado en tres grandes principios que se aplican a todo dispositivo o componente del computador, estos tres principios son: velocidad, capacidad y tipo de conexión.
+                También suele definirse como la forma de interconectar componentes de hardware, para crear computadoras según los requerimientos de funcionalidad, rendimiento y costo.
+                la computadora recibe y envía la información a través de los periféricos, por medio de los canales. La CPU es la encargada de procesar la información que le llega a la computadora. El intercambio de información se tiene que hacer con los periféricos y la CPU. Pide considerarse que todas aquellas unidades de un sistema, exceptuando la CPU, se denomina periférico, por lo que la computadora tiene dos partes bien definidas, que son:
+                La CPU (encargada de ejecutar programas y que también se considera compuesta por la memoria principal, la unidad aritmético lógica y la unidad de control).
+                Los periféricos (que pueden ser de entrada, salida, entrada/salida, almacenamiento y comunicaciones).</p>
+                <h2>Introduccion</h2>
+                <p> La implantación de instrucciones es similar al uso de una serie de montaje en una fábrica de manufacturación. En las cadenas de montaje, el producto pasa a través de muchas etapas de producción antes de tener el producto armado. Cada etapa o segmento de la cadena está especializada en un área específica de la línea de producción y lleva a cabo siempre la misma actividad. Esta tecnología es aplicada en el diseño de procesadores eficientes.
+    
+                    A estos procesadores se les conoce como pipeline processors. Estos están compuestos por una lista de segmentos lineales y secuenciales en donde cada segmento lleva a cabo una tarea o un grupo de tareas computacionales. Los datos que provienen del exterior se introducen en el sistema para ser procesados. La computadora realiza operaciones con los datos que tiene almacenados en memoria, produce nuevos datos o información para el uso externo.
+                    
+                    Las arquitecturas y los conjuntos de instrucciones se pueden clasificar considerando los siguientes aspectos:
+                    
+                    Almacenamiento de operandos en la CPU: dónde se ubican los operadores aparte de la sustractora informativa (SI).
+                    Cantidad de operandos explícitos por instrucción: cuántos operandos se expresan en forma explícita en una instrucción típica. Normalmente son 0, 1, 2 y 3.
+                    Posición del operando: ¿cualquier operando puede estar en memoria, o deben estar algunos o todos en los registros internos de la CPU?. Cómo se especifica la dirección de memoria (modos de direccionamiento disponibles).
+                    Operaciones: qué operaciones están disponibles en el conjunto de instrucciones.
+                    Tipo y tamaño de operandos y cómo se especifican.</p>
+                    <h2>Puertas logicas</h2>
+                <p>Son las encargadas de procesar la lógica de las instrucciones del sistema. Existen siete tipos básicos diferentes:
+    
+                    NOT: es la negación de la entrada. Funciona con una sola entrada y una sola salida.
+                    AND: es la multiplicación binaria de dos entradas y da una sola salida.
+                    OR: es la suma binaria de dos entradas y da como salida la suma propia o el bit carry de ser necesario.
+                    XOR: es la suma binaria de dos entradas y da el resultado como salida, sin incluir el bit carry.
+                    NAND: es la negación de AND. Da una única salida.
+                    NOR: es la negación de OR. Da una única salida.
+                    XNOR: es la negación de XOR. Da una única salida.</p>
+                    <h2>Almacenimiento de operandos en la CPU</h2>
+                    <p>La diferencia básica está en el almacenamiento interno de la CPU. Las principales alternativas son:
+    
+                        Acumulador.
+                        Conjunto de registros.
+                        Memoria.
+                        Pero antes hay que tomar en cuenta que las informaciones procesadas son de suma importancia.
+                        
+                        Características
+                        En una arquitectura de acumulador, un operando está implícitamente en el acumulador siempre leyendo e ingresando datos (por ejemplo, una calculadora estándar).
+                        En la arquitectura de una pila no es necesario nombrar a los operandos ya que estos se encuentran en el tope de la pila (por ejemplo, calculadora de pila HP).
+                        La arquitectura de registros tiene solo operandos explícitos (es aquel que se nombra) en registros o memoria.</p>
+        </div>
+        <a href="Unidad1.html" class="btn-next">Siguiente Unidad</a>
+    </section>
+    <a href="Pagina de arquitectura.html" class="btn-prev">Regresar</a>
+</body>
+</html>
